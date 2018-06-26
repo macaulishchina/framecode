@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/searchbg">
+
+    <ListView
+        android:id="@+id/lv_attach"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"></ListView>
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:text="添加附件"
+        android:background="@drawable/frm_searchbar_bg"
+        android:backgroundTint="@color/sino_blue"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:layout_marginRight="20dp"/>
+
+</LinearLayout>

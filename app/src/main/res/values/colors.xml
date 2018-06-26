@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 框架默认标题栏颜色，可自定义 -->
+    <color name="theme_color">#1e90ff</color>
+    <!-- 开始自定义颜色配置 -->
+
+</resources>

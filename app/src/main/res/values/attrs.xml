@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 开始自定义attrs -->
+    <string-array name="showcase_unit">
+        <item>mojs(Hybird模式)</item>
+        <item>分页（上拉下拉）刷新</item>
+        <item>列表侧滑删除</item>
+        <item>标签组件</item>
+        <item>多页面滑动</item>
+        <item>底部页面切换</item>
+        <item>框架通用网络请求</item>
+        <item>侧拉菜单</item>
+        <item>通用弹出对话框</item>
+        <item>各类加载进度条</item>
+        <item>滚动图片栏</item>
+        <item>二维码</item>
+        <item>附件上传</item>
+    </string-array>
+</resources>

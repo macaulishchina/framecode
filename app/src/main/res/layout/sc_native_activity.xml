@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:gravity="center"
+        android:text="原生页面展示"/>
+
+    <TextView
+        android:id="@+id/close"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:background="@drawable/frm_btn_bg_blue"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="签到（关闭）"/>
+</LinearLayout>

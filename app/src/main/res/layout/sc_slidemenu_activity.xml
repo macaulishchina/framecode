@@ -1,0 +1,46 @@
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/searchbg">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tv_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/frm_btn_bg_blue"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:textSize="15sp"
+            android:text="弹出菜单"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:textColor="#999999"
+            android:text="通过手势右滑或者点击事件，都可以调出侧拉菜单."/>
+    </LinearLayout>
+
+    <!-- 如果为右方弹出，此处修改 gravity="right" android:tag="RIGHT" -->
+    <FrameLayout
+        android:id="@+id/id_left_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="left"
+        android:layout_marginRight="30dp"
+        android:clickable="true"
+        android:focusableInTouchMode="true"
+        android:tag="LEFT" />
+
+</android.support.v4.widget.DrawerLayout>

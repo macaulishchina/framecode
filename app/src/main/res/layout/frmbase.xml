@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFEFEF"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/nbRoot"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/frame_nb_height">
+
+        <com.sinoyd.frame.views.TitleButtonView
+            android:id="@+id/nbBack"
+            android:layout_width="@dimen/frame_nb_ico_width"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:padding="12dp"
+            android:tint="@color/white" />
+
+        <FrameLayout
+            android:id="@+id/navLeftCustom"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/frame_nb_height"
+            android:visibility="gone">
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/nbTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="2"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <com.sinoyd.frame.views.TitleButtonView
+            android:id="@+id/nbRight"
+            android:layout_width="@dimen/frame_nb_ico_width"
+            android:layout_height="@dimen/frame_nb_ico_width"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:padding="12dp"
+            android:tint="@color/white"
+            android:visibility="gone" />
+
+        <FrameLayout
+            android:id="@+id/navRightCustom"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/frame_nb_height"
+            android:layout_alignParentRight="true"
+            android:visibility="gone">
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/nbRightText"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/frame_nb_ico_width"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:minWidth="@dimen/frame_nb_ico_width"
+            android:padding="5dp"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:visibility="gone" />
+
+        <FrameLayout
+            android:id="@+id/nbCustomLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/frame_nb_ico_width"
+            android:layout_marginRight="@dimen/frame_nb_ico_width"
+            android:visibility="gone">
+
+        </FrameLayout>
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/baseContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/dialogFrame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:visibility="gone">
+        <!--<ProgressBar-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content" />-->
+        <com.sinoyd.frame.views.CustomClipLoading
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/statusItem"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/ivStatus"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:tint="#999999" />
+
+        <TextView
+
+            android:id="@+id/tvStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textColor="#999999" />
+    </LinearLayout>
+
+</LinearLayout>

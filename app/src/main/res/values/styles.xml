@@ -1,0 +1,7 @@
+<resources>
+    <!-- 自定义主题样式在此修改 -->
+    <style name="CustomTheme" parent="AppTheme">
+    </style>
+
+    <!-- 自定义应用样式在下方增加 -->
+</resources>
