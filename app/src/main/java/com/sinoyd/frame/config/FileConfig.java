@@ -35,7 +35,7 @@ public class FileConfig {
      * log：日志文件保存路径
      */
     public static void initFolders() {
-        createFolers(new String[]{"attach", "update", "log"});
+        createFolers(new String[]{"attach", "update", "log", "upload"});
     }
 
     //清理5天前的日志
